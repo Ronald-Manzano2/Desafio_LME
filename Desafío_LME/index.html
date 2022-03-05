@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<title>Samsung Galaxy S22 Ultra</title>
+</head>
+<body>
+	<header>
+		<h3 class="logo">Samsung Galaxy S22 Ultra</h3>
+		<div class="derecha">
+			<div class="botones hamburguesa">
+				<ion-icon name="menu"></ion-icon>
+				<ion-icon name="close"></ion-icon>
+			</div>
+		</div>
+	</header>
+
+	<!-- Menú de navegación-->
+
+	<ul class="navegacion">
+		<li><a href="index.html">Inicio</a></li>
+		<li><a href="especificaciones.html">Especificaciones</a></li>
+		<li><a href="accesorios.html">Accesorios</a></li>
+		<li><a href="Modelos.html">Modelos</a></li>
+		<li><a href="adquiereUno.html">Adquiere el tuyo</a></li>
+	</ul>
+
+	<section>
+		<article class="ultra">
+			<h2 class="titulo">Galaxy S22 Ultra</h2>
+			<img src="img/s22ultra.jpeg">
+		</article>
+		
+		<article class="note">
+			<h1>El poder del Note <br> ahora <br> en el S22 Ultra</h1>
+			<img src="img/camara3.jpg">
+		</article>
+
+		<article class="spen">
+			
+			<div class="img">
+				<img src="img/S-pen.jpg">
+			</div>
+			<div class="texto">
+				<h5>S Pen</h5>
+				<h3>Dibuja como un Profesional</h3>
+				<p>Por primera vez un Samsung Galaxy S cuenta con un S Pen integrado en el dispositivo. Puedes comenzar a crear grandes dibujos o simplemente escribir algo, extrayendo tu <em> S Pen </em>de la parte inferior de tu dispositivo. Y ahora cuentas con una mayor latencia que  te permitira que tus trazos posean mayor textura y calidad. </p>
+			</div>
+
+		</article>
+
+		
+		<article class="celular">
+
+			<div class="caja1">
+				<div  class="cel1">
+					<img  src="img/foto.jpg">
+					
+				</div>
+				<div class="cel2">
+					<img src="img/rosado.jpg">
+				</div>
+				<div class="cel3">
+					<img  src="img/s22.jpg">
+				</div>
+			</div>
+			<div class="caja2">
+				<div class="diseno">
+					<h5>Diseño</h5>
+					<h3>Futuro y elegancia juntos</h3>
+					<p>Bordes redondeados, un exterior púlido y una variedad  de colores sofisticados, son la clave para hacer de un dispositivo inteligente en un estándar del futuro, clase y elegancia.</p>
+				</div>
+				<div class="cel4">
+					<img src="img/blanco.jpg">
+					
+				</div>
+			</div>
+		</article>
+		<article>
+			<!-- poner una foto random -->
+		</article>
+		<article class="chip">
+			<div class="info">
+				<h5>Procesador</h5>
+				<h2>Chip superpotente</h2>
+			</div>
+			<div class="cpu">
+			<p>Este dispositivo posee integrado el potente CPU Exynos 2200, el cual promete un gran rendimiento y fluidez gracias a sus 4nm. Gráficos excepcionales y gran calidad de imágen es lo que puedes esperar del GPU AMD incorporado en tu S22 Ultra. </p>
+			</div>
+		</article>
+		
+	</section>
+
+	<footer>
+		<div class="foot"><a href="#">Samsung</a> | Galaxy S22 Ultra | Colegio Don Bosco</div>
+	</footer>
+
+
+	<script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<script type="text/javascript">
+		let hamburguesa = document.querySelector('.hamburguesa')
+		let navegacion = document.querySelector('.navegacion')
+	
+		hamburguesa.onclick = function(){
+			hamburguesa.classList.toggle('active')
+			navegacion.classList.toggle('active')
+		}
+	</script>
+	
+</body>
+</html>
