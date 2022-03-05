@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos</title>
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/modelos.css">
+</head>
+<body>
+    <header>
+		<h3 class="logo">Samsung Galaxy S22 Ultra</h3>
+		<div class="derecha">
+			<div class="botones hamburguesa">
+				<ion-icon name="menu"></ion-icon>
+				<ion-icon name="close"></ion-icon>
+			</div>
+		</div>
+	</header>
+
+	<!-- Menú de navegación-->
+
+	<ul class="navegacion">
+		<li><a href="index.html">Inicio</a></li>
+		<li><a href="especificaciones.html">Especificaciones</a></li>
+		<li><a href="accesorios.html">Accesorios</a></li>
+		<li><a href="modelos.html">Modelos</a></li>
+		<li><a href="adquiereUno.html">Adquiere el tuyo</a></li>
+	</ul>
+
+
+	<script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<script type="text/javascript">
+		let hamburguesa = document.querySelector('.hamburguesa')
+		let navegacion = document.querySelector('.navegacion')
+	
+		hamburguesa.onclick = function(){
+			hamburguesa.classList.toggle('active')
+			navegacion.classList.toggle('active')
+		}
+	</script>
+
+
+       <!-- <div class="slider">
+            <ul>
+                <li><img src="img/slider1.jpg" alt="Teléfonos samsung"></li>
+                <li><img src="img/slider2.jpg" alt="Teléfonos samsung"></li>
+                <li><img src="img/slider3.jpg" alt="Teléfonos samsung"></li>
+            </ul>
+        </div>-->
+        <div id="titulo">
+            <h1>Otros modelos</h1>
+        </div>
+
+		<div class="content">
+			<div id="cel1">
+				<img src="img/cel1.jpg" alt="Samsung S22">
+				<h2>Samsung Galaxy S22</h2>
+				<h4>Pantalla de 6.1 pulgadas full HD</h4>
+				<h4>RAM de 8 GB</h4>
+				<h4>Almacenamiento interno de 128/256 GB</h4>
+				<h4>Android 12</h4>
+			</div>
+
+			<div id="cel2">
+				<img src="img/cel2.jpg" alt="Samsung S22+">
+				<h2>Samsung S22+</h2>
+				<h4>Pantalla de 6.6 pulgadas full HD</h4>
+				<h4>RAM de 8 GB</h4>
+				<h4>Almacenamiento interno de 128/256 GB</h4>
+				<h4>Android 12</h4>
+			</div>
+			<div id="cel3">
+				<img src="img/cel3.jpg" alt="Samsung A71">
+				<h2>Samsung A71</h2>
+				<h4>Pantalla de 6.7 pulgadas</h4>
+				<h4>RAM de 6/8 GB</h4>
+				<h4>Almacenamiento interno de 128 GB</h4>
+				<h4>Android 10</h4>
+			</div>
+
+			<div id="cel4">
+				<img src="img/cel4.jpg" alt="Samsung A80">
+				<h2>Samsung A80</h2>
+				<h4>Pantalla de 6.7 pulgadas</h4>
+				<h4>RAM de 8 GB</h4>
+				<h4>Almacenamiento de 128 GB</h4>
+				<h4>Android 9</h4>
+			</div>
+		</div>
+
+
+
+		<footer>
+			<div class="foot"><a href="index.html">Samsung</a> | Galaxy S22 Ultra | Colegio Don Bosco</div>
+		</footer>
+</body>
+</html>
