@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@300&family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --color-fonts1: #F4F4F4;
+    --color-fonts12: #3D3D3D;
+    --color-background-color: #F2F2F2;
+    --color-background-color2: #666;
+}
+
+body {
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro-accesories {
+    display: flex;
+}
+
+.intro-accesories__target1 {
+    margin-top: 5em;
+    width: 45%;
+    padding: 10px;
+    background-color: var(--color-background-color); 
+    color: var(--color-fonts12);
+    text-align: center;
+}
+
+.intro-accesories__img{
+    width: 55%;
+    background-color: var(--color-background-color); 
+    color: var(--color-fonts12);
+    overflow: hidden;
+}
+
+.intro-accesories__ul{
+    display: flex;
+    animation: slide 25s infinite alternate linear;
+    overflow: hidden;
+} 
+
+.intro-accesories__ul>li{
+    list-style-type: none;
+    width: 100%;
+    padding-right: 40px;
+    margin-right: 30px;
+} 
+
+.intro-accesories__title{
+    font-size: 45px;
+    display: flex;
+}
+
+.intro-accesories__title2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 3em;
+    background-color: rgba(110, 110, 110, 0.411);
+    padding: 0.4em;
+}
+
+
+.intro-accesories__skills{
+    background-color: var(--color-background-color);
+}
+
+.intro-accesories__buld{
+    display: block;
+    object-fit: cover;
+    height: 450px;
+    width: 710px;
+    border-radius: 20px;
+    position: relative;
+    left: 25px;
+    top: 5px;
+}
+
+.intro-accesories__buld-modifier{
+    margin-right: 30px;
+}
+
+.texto{
+    width: 80%;
+    flex-direction: row-reverse;
+    background-color: rgba(236, 229, 229, 0.212);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes slide {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+
+}
+
+.img-skill{
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
+
+.img-skill:hover{
+    opacity: 90%;
+}
+
+
+.intro-accesories__center{
+    display: flex;
+}
+
+.intro-accesories__skills{
+    overflow: hidden;
+}
+
+.intro-accesories__skills1, .intro-accesories__skills2, .intro-accesories__skills3{
+    width: 240vw;
+    padding: 20px;
+    text-align: center;
+}
+
+.titleReloj,.titleauriculares{
+    font-size: 20px;
+}
+
+
+.icon1{
+    height: 60px;
+    width: 60px;
+}
+
+.reloj, .auriculares, .cargador{
+    display: flex;
+    align-items: center;
+    padding: 1.5em;
+}
+
+
+.imgSmartwatch, .imgCargador{
+    object-fit: cover;
+    height: 75vh;
+    width: 50vw;
+    border-radius: 10px;
+}
+
+.imgAuriculares{
+    object-fit: cover;
+    height: 75vh;
+    width: 50vw;
+    border-radius: 10px;
+    margin-right: 2.3em;
+}
+
+.titleReloj, .titleauriculares, .titleCargador{
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+
+.DescripcionReloj, .DescripcionAuriculares, .DescripcionCargador{
+    font-size: 25px;
+}
+
+.icon1{
+    margin: 0 15px;
+}
+
+
+@media(max-width: 950px) {
+    .intro-accesories{
+        flex-direction: column;
+    }
+
+    .intro-accesories__target1 {
+        margin-top: 5em;
+        width: 100%;
+        padding: 10px;
+        background-color: var(--color-background-color); 
+        color: var(--color-fonts12);
+        text-align: center;
+    }
+
+    .texto{
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .intro-accesories__title{
+        margin-top: 0;
+    }
+
+    .intro-accesories__buld{
+        display: none;
+        margin-top: 50px;
+    }
+    .intro-accesories__title2{
+        font-size: 35px;
+
+    }
+
+    .img-skill{
+        display: none;
+    }
+
+    .icon1{
+        display: none;
+    }
+    .imgAuriculares, .imgSmartwatch, .imgCargador{
+        width: 50vw;
+        height: 30vh;
+        width: 100%;
+    }
+
+    .imgAuriculares{
+        position: relative;
+        top: 190px;
+    }
+    
+    .titleauriculares{
+        position: relative;
+        top: -200px;
+    }
+
+    .DescripcionCargador, .DescripcionAuriculares, .DescripcionSmartwatch{
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .DescripcionAuriculares{
+        position: relative;
+        top: -200px;
+    }
+
+    .reloj, .auriculares, .cargador{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+@media screen and (max-width: 410px){
+    *{
+        font-size: 45%;
+    }
+    #d2{
+        margin-left: 0.5em;
+    }
+}
+@media screen and (max-width: 650px){
+    *{
+        font-size: 70%;
+    }
+
+    #d2{
+        margin-left: 0.5em;
+    }
+}
+
+@media screen and (max-width: 700px){
+    *{
+        font-size: 85%;
+    }
+}
+
+@media screen and (max-width: 850px){
+    *{
+        font-size: 95%;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    body{
+        font-size: 100%;
+    }
+}
+
+*{
+    font-family: 'Noto sans', sans-serif;
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    width: auto;
+    height: auto;
+    background-color: #fff;
+}
+
+h1[id*="title"]{
+    position:relative;
+    width: 50vw;
+    margin: auto;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 6.75rem;
+    margin-bottom: 0.5em;
+}
+
+#titleS{
+    width: 100vw;
+    top: 20px;
+    margin-top: 0.5em;
+}
+
+section{
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 5%;
+    padding-top: 4%;
+}
+
+h2,h3{
+    font-size: 1.3em;
+}
+
+p{
+    font-size: 1.15em;
+}
+
+hr{
+    margin: auto;
+    margin-top: 1%;
+    width: 60vw;
+    margin-bottom: 1%;
+}
+
+div[id^="d"]{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#d1{
+    display: flex;
+    width: 80%;
+}
+
+#d1 article{
+    width: auto;
+    margin: 5%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    background-color: rgba(172, 199, 190, 0);
+}
+
+hr + h2{
+    position: relative;
+    color: rgb(0, 0, 0);
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-size: 1.8em;
+    text-shadow: rgb(212, 212, 212) -2px -2px;
+}
+
+#d2{
+    display: flex;
+    width: 85%;
+}
+
+article{
+    width: 50%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
+#d2 article h2{
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 1.8em;
+    text-shadow: rgb(193, 214, 212) -2px -2px;
+}
+
+#d2 article ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#d2 article ul li{
+    display: inline;
+    width: 30vw;
+    margin: 4%;
+    font-size: 1.1em;
+    align-items: center;
+}
+
+#d2:nth-child(3n-2) p{
+    font-size: 4em;
+    animation: 1.4s infinite alternate barat;
+    color: rgb(29, 147, 206);
+    text-shadow: rgb(121, 133, 136) 2px 1px;
+}
